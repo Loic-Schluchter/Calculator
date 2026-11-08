@@ -1,0 +1,36 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.calculator button{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.calculator button:hover{
+    background-color: lightgray;
+}
